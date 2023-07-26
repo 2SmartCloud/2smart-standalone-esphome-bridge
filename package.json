@@ -1,0 +1,43 @@
+{
+    "name": "esphome-bridge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app",
+        "test": "echo 'Test Passed'",
+        "test:lint": "eslint lib app.js --ext js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:2SmartCloud/2smart-standalone-esphome-bridge.git"
+    },
+    "devDependencies": {
+        "async": "^3.1.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-webbylab": "^4.0.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-jest": "^24.1.0",
+        "eslint-plugin-more": "^1.0.0",
+        "eslint-plugin-no-require-lodash": "^1.1.0",
+        "eslint-plugin-prefer-spread": "^1.0.3",
+        "eslint-plugin-react": "^7.21.5",
+        "jest": "^26.6.3"
+    },
+    "author": "2Smart",
+    "dependencies": {
+        "@csstools/convert-colors": "^2.0.0",
+        "aedes": "^0.44.0",
+        "bluebird": "^3.7.2",
+        "colorsys": "^1.0.22",
+        "fs-extra": "^9.0.1",
+        "homie-sdk": "github:2SmartCloud/2smart-standalone-homie-sdk",
+        "mqtt": "^4.2.4",
+        "net": "^1.0.2",
+        "nunjucks": "^3.2.2",
+        "object-path": "^0.11.5",
+        "path": "^0.12.7",
+        "underscore": "^1.11.0"
+    }
+}
